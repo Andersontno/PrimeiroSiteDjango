@@ -33,10 +33,13 @@
                 </div>
                 {% endfor %}
                 {% else %}
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <p>Receita não Encontrada</p>    
+                    </div>    
                 {% endif %}
             </div>
         </div>
     </section>
     <!-- ##### Best Receipe Area End ##### -->
-    {% include '_partials/footer.html' %}
+    {% include 'partials/_footer.html' %}
 {% endblock %}
